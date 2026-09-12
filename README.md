@@ -2,34 +2,36 @@
 
 
 
-# [Project Name] 🎯
+# [Dosa Dna checker] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Nova]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Shahana Shemeer] - [College of engineering perumon]
+- Member 2: [Farsana.A] - [College of engineering perumon]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+DOSA DNA is a fun computer vision project that analyzes a dosa from a photo. It checks its roundness, symmetry, browning, edges, and other features, then gives it a score, personality, and funny comment. The project turns a simple dosa into unnecessary but entertaining scientific data.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People are struggling to know whether their dosa is truly round, symmetrical, and perfectly browned. DOSA DNA solves this extremely important problem by scientifically judging a dosa and giving it a score and personality.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We created DOSA DNA, a computer vision app that looks at a dosa photo, checks its shape, symmetry, browning and other features, and gives it a score, personality, and funny comment. Because apparently, even a dosa needs a performance review
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+For Software:
+
+Language: Python
+Framework: Streamlit
+Libraries: OpenCV, NumPy, Pillow
+Tools: VS Code, Python Virtual Environment (venv),
 
 For Hardware:
 - [List main components]
@@ -37,29 +39,34 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+For Software
 # Installation
-[commands]
+pip install streamlit opencv-python-headless numpy pillow
 
 # Run
-[commands]
+python -m streamlit run app.py
 
 ### Project Documentation
-For Software:
+For Software:DOSA DNA is a computer vision-based web application developed using Python, OpenCV and Streamlit. The user uploads a dosa image, and the system detects the dosa and analyzes its shape, roundness, symmetry, edge quality, center accuracy, browning and visible pores. The results are combined to generate a Dosa Score, classification, personality and a funny comment. The project presents the results through a simple and interactive Dosa Passport.
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="648" height="661" alt="image" src="https://github.com/user-attachments/assets/90b0e0f9-24bd-463a-9c07-9550d4667cd1" />
+[DOSA DNA Upload Interface](dosa_upload_interface.png)
+Figure 1: DOSA DNA home screen showing the dosa upload section and the features that will be analyzed, including roundness, symmetry, edge quality, center accuracy, browning, and visible pores.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="703" height="695" alt="image" src="https://github.com/user-attachments/assets/306d0024-019d-42db-9e21-a5929322ba16" />
+[Dosa Analysis Result](dosa_analysis_result.png)
+Figure 2: Dosa analysis screen showing the uploaded dosa, the original image, and the computer vision detection outlining the detected dosa region.
+
+<img width="695" height="867" alt="image" src="https://github.com/user-attachments/assets/a4e03d45-43e8-46aa-817f-d2c9f46eb739" />
+![Dosa Geometry and DNA Profile](dosa_geometry_profile.png)
+Figure 3: Dosa analysis results showing the geometric measurements, Dosa DNA profile scores, detailed analysis options, and the overall Dosa Score of 89.9/100.
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/82a1a891-d267-48c7-bf2c-1e7ad312378b" />
+
 
 For Hardware:
 
@@ -82,17 +89,14 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+"C:\Users\DELL\Videos\Screen Recordings\Screen Recording 2026-09-12 084605.mp4"
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+Shahana : Worked on the frontend design and development, Streamlit interface, image upload and result display, Dosa Passport, UI improvements, testing, and project documentation.
+Farsana: Worked on the backend image-processing logic using Python and OpenCV, dosa detection, feature analysis, scoring, classification, debugging, and testing.
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
